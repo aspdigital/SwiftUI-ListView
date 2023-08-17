@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A17CD2082A8EB9470044B6A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17CD2072A8EB9470044B6A6 /* ContentView.swift */; };
+		A180E39A2A8EBD7500FD90A0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A180E3992A8EBD7500FD90A0 /* Credits.rtf */; };
 		A1A21BEF2A8EB866003E5861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A21BEE2A8EB866003E5861 /* Assets.xcassets */; };
 		A1A21BF22A8EB866003E5861 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1A21BF12A8EB866003E5861 /* Preview Assets.xcassets */; };
 		A1A21BFC2A8EB884003E5861 /* SwiftUI_ListViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A21BF92A8EB884003E5861 /* SwiftUI_ListViewApp.swift */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		A17CD2072A8EB9470044B6A6 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A180E3992A8EBD7500FD90A0 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
 		A1A21BE72A8EB865003E5861 /* SwiftUI-ListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-ListView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A21BEE2A8EB866003E5861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1A21BF12A8EB866003E5861 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				A1A21BEE2A8EB866003E5861 /* Assets.xcassets */,
 				A1A21BF32A8EB866003E5861 /* SwiftUI_ListView.entitlements */,
 				A1A21BF02A8EB866003E5861 /* Preview Content */,
+				A180E3992A8EBD7500FD90A0 /* Credits.rtf */,
 			);
 			path = "SwiftUI-ListView";
 			sourceTree = "<group>";
@@ -131,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1A21BF22A8EB866003E5861 /* Preview Assets.xcassets in Resources */,
+				A180E39A2A8EBD7500FD90A0 /* Credits.rtf in Resources */,
 				A1A21BEF2A8EB866003E5861 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -39,6 +39,8 @@ struct ContentView: View {
             List {
                 ForEach(0..<entries.names.count, id: \.self) { index in
                     Text("\(entries.names[index])")
+                        .background( (index == thisone) ? .red : .white)
+                        .foregroundColor( (index == thisone) ? .white : .black)
                         .onTapGesture {
                             thisone = index
                             print("You tapped entry at \(index) = \(entries.names[index])")
